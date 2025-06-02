@@ -1,0 +1,2136 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30">
+    <Prefix name="" IRI="http://www.semanticweb.org/diniz/ontologies/2024/8/untitled-ontology-30/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchaeologicalMonument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchaeologicalSite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archaeologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arrowhead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BirdSounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BronzeAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coordinates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalHeritageMonument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalHeritageSite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulturalLandscape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#District"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E18_Physical_Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E1_CRM_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E24_Physical_Human-Made_Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E26_Physical_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E27_Site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E2_Temporal_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E31_Documents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E33_Linguistic_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E39_Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E4_Period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E52_Time_Span"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E53_Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E5_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E73_Information_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E89_Propositional_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E90_Symbolic_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E94_Space_Primitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarlyNeolithic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engravings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excavation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodVessel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroovedWare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Images"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Landscape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LateNeolithic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LithicTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoomWeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MegalithicMonument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MegalithicSite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menhir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiddleBronzeAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Municipality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narratives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalLandscape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalSoundscape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neolithic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OcupationOrUsage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherSounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlaqueIdol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restoration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuralLandscape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoundsOfTheTreeBranches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoundsOfTheWindBlowing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soundscape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpiritualOrRitualSite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneCircleOrCromlech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TouristicSite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrbanLandscape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volunteers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patreon/Promoter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasExcavationTimeSpan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasIdentificationTimeSpan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P129_isAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P130_shows_features_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P198_holds_or_supports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P46_IsComposedOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P4_hasTimeSpan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P53_has_former_or_current_location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P67_refersTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P89_falls_within"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClimate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConstructionTimeSpan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEngravings"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIntangibleProduct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTypicalLandscape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUsageTimeSpan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#format"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#heightMeters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rockType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#usagetypeArtefacts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#usagetypeMegalithism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alentejo_Central"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BarbedTangedArrowheads"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M5a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M5b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M6a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF_M8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M34"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M36"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M37"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M39"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M40"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M44"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M46"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CL_M9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comhairle_nan_Eilean_Siar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Construction_of_Cromeleque_das_Fontaínhas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Construction_of__CalanaisI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crescent_and_Crozier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excavation_of_CalanaisI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excavation_of_Cromeleque_das_Fontaínhas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FineBeaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlintLithics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodVesselBeaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gerald_Ponting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GroovedWareBowl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Identification_of_CalanaisI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Identification_of_Cromeleque_das_Fontaínhas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Matheson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leonor_Rocha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manuel_Calado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Margaret_Curtis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mediterranean_Climate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montado_Alentejano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Museu_do_Megalitismo_de_Mora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MyloniteLithics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Occupation_or_Usage_of__CalanaisI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OceanicClimate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ocupation_of_Cromeleque_das_Fontaínhas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Open_Moorland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Outer_Hebrides"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patrick_Ashmore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pavia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pedro_Alvim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plaque_Idol_from_Coudelaria_de_Alter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuartzLithics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Restoration_of_CalanaisI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Restoration_of_Cromeleque_das_Fontaínhas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ron_Curtis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StoneTool1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Évora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1680s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1857"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1970"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1980-1986"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2005-2006"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2900-1500"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3300-2500"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#38.931079,_-8.121081"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7000-2000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#‘58.197541,_-6.7451450’"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasidentificationTimeSpan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ArchaeologicalArtefact"/>
+        <Class IRI="#E24_Physical_Human-Made_Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchaeologicalMonument"/>
+        <Class IRI="#CulturalHeritageMonument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchaeologicalSite"/>
+        <Class IRI="#E27_Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archaeologist"/>
+        <Class IRI="#E39_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arrowhead"/>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audio"/>
+        <Class IRI="#E31_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beaker"/>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BirdSounds"/>
+        <Class IRI="#NaturalSoundscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BronzeAge"/>
+        <Class IRI="#E4_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climate"/>
+        <Class IRI="#E26_Physical_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construction"/>
+        <Class IRI="#E5_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coordinates"/>
+        <Class IRI="#E94_Space_Primitive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalHeritageMonument"/>
+        <Class IRI="#E24_Physical_Human-Made_Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalHeritageSite"/>
+        <Class IRI="#E27_Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulturalLandscape"/>
+        <Class IRI="#Landscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#District"/>
+        <Class IRI="#E53_Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E18_Physical_Thing"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E24_Physical_Human-Made_Thing"/>
+        <Class IRI="#E18_Physical_Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E26_Physical_Feature"/>
+        <Class IRI="#E18_Physical_Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E27_Site"/>
+        <Class IRI="#E26_Physical_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E2_Temporal_Entity"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E31_Documents"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E33_Linguistic_Object"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E39_Actor"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E4_Period"/>
+        <Class IRI="#E2_Temporal_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E52_Time_Span"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E53_Place"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E5_Event"/>
+        <Class IRI="#E4_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E73_Information_Object"/>
+        <Class IRI="#E89_Propositional_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E89_Propositional_Object"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E90_Symbolic_Object"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E94_Space_Primitive"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarlyNeolithic"/>
+        <Class IRI="#Neolithic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engravings"/>
+        <Class IRI="#E90_Symbolic_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excavation"/>
+        <Class IRI="#E5_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodVessel"/>
+        <Class IRI="#Beaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroovedWare"/>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identification"/>
+        <Class IRI="#E5_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Idol"/>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Images"/>
+        <Class IRI="#E31_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Landscape"/>
+        <Class IRI="#E26_Physical_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LateNeolithic"/>
+        <Class IRI="#Neolithic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LithicTool"/>
+        <Class IRI="#StoneTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoomWeight"/>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MegalithicMonument"/>
+        <Class IRI="#ArchaeologicalMonument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MegalithicSite"/>
+        <Class IRI="#ArchaeologicalSite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Menhir"/>
+        <Class IRI="#MegalithicMonument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiddleBronzeAge"/>
+        <Class IRI="#BronzeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Municipality"/>
+        <Class IRI="#E53_Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museum"/>
+        <Class IRI="#E39_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narratives"/>
+        <Class IRI="#E33_Linguistic_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalLandscape"/>
+        <Class IRI="#Landscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalSoundscape"/>
+        <Class IRI="#Soundscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neolithic"/>
+        <Class IRI="#E4_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OcupationOrUsage"/>
+        <Class IRI="#E5_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherSounds"/>
+        <Class IRI="#NaturalSoundscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parish"/>
+        <Class IRI="#E53_Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlaqueIdol"/>
+        <Class IRI="#Idol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#E53_Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restoration"/>
+        <Class IRI="#E5_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuralLandscape"/>
+        <Class IRI="#CulturalLandscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoundsOfTheTreeBranches"/>
+        <Class IRI="#NaturalSoundscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoundsOfTheWindBlowing"/>
+        <Class IRI="#NaturalSoundscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soundscape"/>
+        <Class IRI="#E26_Physical_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpiritualOrRitualSite"/>
+        <Class IRI="#E27_Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneCircleOrCromlech"/>
+        <Class IRI="#MegalithicMonument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneTool"/>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TouristicSite"/>
+        <Class IRI="#E27_Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UrbanLandscape"/>
+        <Class IRI="#CulturalLandscape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volunteers"/>
+        <Class IRI="#E39_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patreon/Promoter"/>
+        <Class IRI="#E39_Actor"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Alentejo_Central"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arrowhead"/>
+        <NamedIndividual IRI="#BarbedTangedArrowheads"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M5a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M5b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M6a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CF_M8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M34"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M36"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M37"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M39"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M40"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M44"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M46"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Menhir"/>
+        <NamedIndividual IRI="#CL_M9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalHeritageSite"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MegalithicSite"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpiritualOrRitualSite"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StoneCircleOrCromlech"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TouristicSite"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Municipality"/>
+        <NamedIndividual IRI="#Comhairle_nan_Eilean_Siar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Construction"/>
+        <NamedIndividual IRI="#Construction_of_Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Construction"/>
+        <NamedIndividual IRI="#Construction_of__CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engravings"/>
+        <NamedIndividual IRI="#Crescent_and_Crozier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CulturalHeritageSite"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MegalithicSite"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StoneCircleOrCromlech"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TouristicSite"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Excavation"/>
+        <NamedIndividual IRI="#Excavation_of_CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Excavation"/>
+        <NamedIndividual IRI="#Excavation_of_Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Beaker"/>
+        <NamedIndividual IRI="#FineBeaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LithicTool"/>
+        <NamedIndividual IRI="#FlintLithics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodVessel"/>
+        <NamedIndividual IRI="#FoodVesselBeaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Volunteers"/>
+        <NamedIndividual IRI="#Gerald_Ponting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GroovedWare"/>
+        <NamedIndividual IRI="#GroovedWareBowl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identification"/>
+        <NamedIndividual IRI="#Identification_of_CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identification"/>
+        <NamedIndividual IRI="#Identification_of_Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patreon/Promoter"/>
+        <NamedIndividual IRI="#James_Matheson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archaeologist"/>
+        <NamedIndividual IRI="#Leonor_Rocha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archaeologist"/>
+        <NamedIndividual IRI="#Manuel_Calado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Volunteers"/>
+        <NamedIndividual IRI="#Margaret_Curtis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Climate"/>
+        <NamedIndividual IRI="#Mediterranean_Climate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RuralLandscape"/>
+        <NamedIndividual IRI="#Montado_Alentejano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Municipality"/>
+        <NamedIndividual IRI="#Mora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Museum"/>
+        <NamedIndividual IRI="#Museu_do_Megalitismo_de_Mora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LithicTool"/>
+        <NamedIndividual IRI="#MyloniteLithics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OcupationOrUsage"/>
+        <NamedIndividual IRI="#Occupation_or_Usage_of__CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Climate"/>
+        <NamedIndividual IRI="#OceanicClimate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OcupationOrUsage"/>
+        <NamedIndividual IRI="#Ocupation_of_Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RuralLandscape"/>
+        <NamedIndividual IRI="#Open_Moorland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Outer_Hebrides"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archaeologist"/>
+        <NamedIndividual IRI="#Patrick_Ashmore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parish"/>
+        <NamedIndividual IRI="#Pavia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archaeologist"/>
+        <NamedIndividual IRI="#Pedro_Alvim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PlaqueIdol"/>
+        <NamedIndividual IRI="#Plaque_Idol_from_Coudelaria_de_Alter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LithicTool"/>
+        <NamedIndividual IRI="#QuartzLithics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restoration"/>
+        <NamedIndividual IRI="#Restoration_of_CalanaisI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restoration"/>
+        <NamedIndividual IRI="#Restoration_of_Cromeleque_das_Fontaínhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Volunteers"/>
+        <NamedIndividual IRI="#Ron_Curtis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StoneTool"/>
+        <NamedIndividual IRI="#StoneTool1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parish"/>
+        <NamedIndividual IRI="#Uig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#District"/>
+        <NamedIndividual IRI="#Évora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E52_Time_Span"/>
+        <NamedIndividual IRI="#1680s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E52_Time_Span"/>
+        <NamedIndividual IRI="#1857"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E52_Time_Span"/>
+        <NamedIndividual IRI="#1970"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E52_Time_Span"/>
+        <NamedIndividual IRI="#1980-1986"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E52_Time_Span"/>
+        <NamedIndividual IRI="#2005-2006"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E52_Time_Span"/>
+        <NamedIndividual IRI="#2900-1500"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E52_Time_Span"/>
+        <NamedIndividual IRI="#3300-2500"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Coordinates"/>
+        <NamedIndividual IRI="#38.931079,_-8.121081"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E52_Time_Span"/>
+        <NamedIndividual IRI="#7000-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Coordinates"/>
+        <NamedIndividual IRI="#‘58.197541,_-6.7451450’"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClimate"/>
+        <NamedIndividual IRI="#Alentejo_Central"/>
+        <NamedIndividual IRI="#Mediterranean_Climate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTypicalLandscape"/>
+        <NamedIndividual IRI="#Alentejo_Central"/>
+        <NamedIndividual IRI="#Montado_Alentejano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEngravings"/>
+        <NamedIndividual IRI="#CF_M2"/>
+        <NamedIndividual IRI="#Crescent_and_Crozier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P53_has_former_or_current_location"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#Uig"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M16"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M17"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M18"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M19"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M21"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M22"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M24"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M25"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M26"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M27"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M29"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M31"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M33"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M34"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M36"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M37"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M39"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M40"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M41"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M42"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M43"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M44"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M45"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M46"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M47"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <NamedIndividual IRI="#CL_M9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P89_falls_within"/>
+        <NamedIndividual IRI="#Comhairle_nan_Eilean_Siar"/>
+        <NamedIndividual IRI="#Outer_Hebrides"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Construction_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Construction_of__CalanaisI"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConstructionTimeSpan"/>
+        <NamedIndividual IRI="#Construction_of__CalanaisI"/>
+        <NamedIndividual IRI="#3300-2500"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P53_has_former_or_current_location"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Pavia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M5a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M5b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M6a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#CF_M8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasExcavationTimeSpan"/>
+        <NamedIndividual IRI="#Excavation_of_CalanaisI"/>
+        <NamedIndividual IRI="#1857"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasExcavationTimeSpan"/>
+        <NamedIndividual IRI="#Excavation_of_CalanaisI"/>
+        <NamedIndividual IRI="#1980-1986"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <NamedIndividual IRI="#Excavation_of_CalanaisI"/>
+        <NamedIndividual IRI="#James_Matheson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <NamedIndividual IRI="#Excavation_of_CalanaisI"/>
+        <NamedIndividual IRI="#Patrick_Ashmore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Excavation_of_CalanaisI"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasExcavationTimeSpan"/>
+        <NamedIndividual IRI="#Excavation_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#2005-2006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <NamedIndividual IRI="#Excavation_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Leonor_Rocha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <NamedIndividual IRI="#Excavation_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Manuel_Calado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Excavation_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasIdentificationTimeSpan"/>
+        <NamedIndividual IRI="#Identification_of_CalanaisI"/>
+        <NamedIndividual IRI="#1680s"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Identification_of_CalanaisI"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasIdentificationTimeSpan"/>
+        <NamedIndividual IRI="#Identification_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#1970"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Identification_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P89_falls_within"/>
+        <NamedIndividual IRI="#Mora"/>
+        <NamedIndividual IRI="#Évora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Occupation_or_Usage_of__CalanaisI"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUsageTimeSpan"/>
+        <NamedIndividual IRI="#Occupation_or_Usage_of__CalanaisI"/>
+        <NamedIndividual IRI="#2900-1500"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Ocupation_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasUsageTimeSpan"/>
+        <NamedIndividual IRI="#Ocupation_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#7000-2000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClimate"/>
+        <NamedIndividual IRI="#Outer_Hebrides"/>
+        <NamedIndividual IRI="#OceanicClimate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTypicalLandscape"/>
+        <NamedIndividual IRI="#Outer_Hebrides"/>
+        <NamedIndividual IRI="#Open_Moorland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P89_falls_within"/>
+        <NamedIndividual IRI="#Pavia"/>
+        <NamedIndividual IRI="#Mora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <NamedIndividual IRI="#Restoration_of_CalanaisI"/>
+        <NamedIndividual IRI="#Patrick_Ashmore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Restoration_of_CalanaisI"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <NamedIndividual IRI="#Restoration_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Leonor_Rocha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <NamedIndividual IRI="#Restoration_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Manuel_Calado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <NamedIndividual IRI="#Restoration_of_Cromeleque_das_Fontaínhas"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P89_falls_within"/>
+        <NamedIndividual IRI="#Uig"/>
+        <NamedIndividual IRI="#Outer_Hebrides"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#P89_falls_within"/>
+        <NamedIndividual IRI="#Évora"/>
+        <NamedIndividual IRI="#Alentejo_Central"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#heightMeters"/>
+        <NamedIndividual IRI="#CF_M1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#format"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <Literal>Cruciform Shape</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rockType"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <Literal>Lewisian gneiss</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#usagetypeMegalithism"/>
+        <NamedIndividual IRI="#CalanaisI"/>
+        <Literal>Funerary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#format"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <Literal>HorseShoe_Shape</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rockType"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <Literal>Granite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#usagetypeMegalithism"/>
+        <NamedIndividual IRI="#Cromeleque_das_Fontaínhas"/>
+        <Literal>Non-Funerary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#usagetypeArtefacts"/>
+        <NamedIndividual IRI="#Plaque_Idol_from_Coudelaria_de_Alter"/>
+        <Literal>Funerary</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasExcavationTimeSpan"/>
+        <ObjectProperty IRI="#P4_hasTimeSpan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasIdentificationTimeSpan"/>
+        <ObjectProperty IRI="#P4_hasTimeSpan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClimate"/>
+        <ObjectProperty IRI="#P130_shows_features_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConstructionTimeSpan"/>
+        <ObjectProperty IRI="#P4_hasTimeSpan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEngravings"/>
+        <ObjectProperty IRI="#P130_shows_features_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMegalithicComponents"/>
+        <ObjectProperty IRI="#P46_IsComposedOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTypicalLandscape"/>
+        <ObjectProperty IRI="#P130_shows_features_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasUsageTimeSpan"/>
+        <ObjectProperty IRI="#P4_hasTimeSpan"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasExcavationTimeSpan"/>
+        <Class IRI="#Excavation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasIdentificationTimeSpan"/>
+        <Class IRI="#Identification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <Class IRI="#E5_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P129_isAbout"/>
+        <Class IRI="#E31_Documents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P198_holds_or_supports"/>
+        <Class IRI="#E27_Site"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P46_IsComposedOf"/>
+        <Class IRI="#MegalithicMonument"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P4_hasTimeSpan"/>
+        <Class IRI="#E2_Temporal_Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P53_has_former_or_current_location"/>
+        <Class IRI="#E27_Site"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P67_refersTo"/>
+        <Class IRI="#E33_Linguistic_Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P89_falls_within"/>
+        <Class IRI="#E53_Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <Class IRI="#E4_Period"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClimate"/>
+        <Class IRI="#E53_Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConstructionTimeSpan"/>
+        <Class IRI="#Construction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEngravings"/>
+        <Class IRI="#Menhir"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIntangibleProduct"/>
+        <Class IRI="#CulturalHeritageSite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTypicalLandscape"/>
+        <Class IRI="#E53_Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUsageTimeSpan"/>
+        <Class IRI="#OcupationOrUsage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasExcavationTimeSpan"/>
+        <Class IRI="#E52_Time_Span"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasidentificationTimeSpan"/>
+        <Class IRI="#E52_Time_Span"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P11_hadParticipant"/>
+        <Class IRI="#E39_Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P129_isAbout"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P198_holds_or_supports"/>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P46_IsComposedOf"/>
+        <Class IRI="#Menhir"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P4_hasTimeSpan"/>
+        <Class IRI="#E52_Time_Span"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P53_has_former_or_current_location"/>
+        <Class IRI="#E53_Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P67_refersTo"/>
+        <Class IRI="#E1_CRM_Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P89_falls_within"/>
+        <Class IRI="#E53_Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#P8_took_place_on_or_within"/>
+        <Class IRI="#ArchaeologicalSite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClimate"/>
+        <Class IRI="#Climate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConstructionTimeSpan"/>
+        <Class IRI="#E52_Time_Span"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEngravings"/>
+        <Class IRI="#Engravings"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIntangibleProduct"/>
+        <Class IRI="#Narratives"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTypicalLandscape"/>
+        <Class IRI="#Landscape"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUsageTimeSpan"/>
+        <Class IRI="#E52_Time_Span"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#format"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#heightMeters"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#rockType"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#usagetypeArtefacts"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#usagetypeMegalithism"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#format"/>
+        <Class IRI="#MegalithicMonument"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#heightMeters"/>
+        <Class IRI="#Menhir"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rockType"/>
+        <Class IRI="#MegalithicMonument"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#usagetypeArtefacts"/>
+        <Class IRI="#ArchaeologicalArtefact"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#usagetypeMegalithism"/>
+        <Class IRI="#MegalithicSite"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#format"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#heightMeters"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rockType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#usagetypeArtefacts"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#usagetypeMegalithism"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
